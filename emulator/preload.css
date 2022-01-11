@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    user-select: none;
+    overflow: hidden;
+}
+
+#game-outer {
+    width: 100vw;
+    height: 100vh;
+}
+
+a[class] {
+    display: none !important;
+}
+
+.ejs--057800d021995e1347ec07cb748672,
+.ejs--952c974392296e7f643d51db380157,
+.ejs--d31688f864f56d6426ebbf2217d6ee {
+    background-color: transparent !important;
+}
+
+canvas {
+     background-color: #000 !important;
+}
