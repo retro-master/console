@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'ArcadeClasic';
+    src: url(./font.ttf);
+}
+
+* {
+    font-family: 'ArcadeClasic' !important;
+    user-select: none;
+}
+
+body {
+    background-image: url(./background.png);
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: #FFF;
+    margin: 0px;
+}
+
+button {
+    display: block;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    height: 30px;
+}
+
+.game-this {
+    background-color: #FFF;
+    color: #000;
+}
+
+#game-list {
+    position: fixed;
+    background-color: #0004;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    padding-top: calc(50vh - 225px);
+    padding-left: calc(50vh - 225px);
+}
+
+#game-view {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    border: none;
+    background-color: #000;
+    z-index: 2;
+}
+
+.game-open {
+    display: block !important;
+}
+
+#user-step {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    z-index: 3;
+}
+
+.step-open {
+    display: block !important;
+}
+
+.step-open > div {
+    width: 200px;
+    line-height: 50px;
+    border: 1px solid #AAA;
+    text-align: center;
+    margin: calc(50vh - 25px) calc(50vw - 100px);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#game-head {
+    position: fixed;
+    z-index: 2;
+    left: calc(100vw - 470px);
+    top: 20px;
+    color: #FFF;
+}
+
+#game-head > big {
+    font-size: 70px;
+    display: block;
+    text-align: right;
+}
+
+#game-head > small {
+    font-size: 20px;
+    display: block;
+    text-align: right;
+}
+
+#game-dnjs {
+    height: 80px;
+    font-size: 22px;
+    position: fixed;
+    z-index: 2;
+    left: calc(100vw - 250px);
+    top: calc(100vh - 80px);
+    text-align: right;
+}
